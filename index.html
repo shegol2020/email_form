@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="./style">
+    <meta charset="UTF-8">
+    <title>Email form</title>
+     <script src="./script.js"></script> 
+   
+</head>
+<body>
+<div class="container">
+<div id="emailContainer">
+ <div class="hiddenContainer">
+    <div class="contact100-form-title">
+Введите email</div>
+<input type="text" id="email" class="wrap-input100 validate-input">
+    <div class="container-contact100-form-btn">
+<input type="button"  class="contact100-form-btn" value="OK" id="btn" onclick="checkEmail()"></div>
+<div id="emailError" class="contact100-form-title"></div>
+    </div>
+    <div id="emailSuccess" class="contact100-form-title"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
